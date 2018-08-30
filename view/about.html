@@ -16,7 +16,10 @@
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" defer></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" defer></script>     
-
+     <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhMnw0kMiHOJ2qr7s0Y_EXshz1cnP6_VY&callback=initMap">
+    </script>
+    
      <script src="../public/app.js" defer></script>
      <title>Document</title>
 </head>
@@ -44,16 +47,19 @@
      <!-- <div class ='about-main'> -->
           <div id = 'about-detail'>
                <img src="../public/1.jpg" alt="" id ='g'>
-               <p id = 'g-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, atque quam provident eligendi alias odio molestias minus incidunt corporis, qui autem ducimus aliquid nemo pariatur cupiditate sed, ipsam maxime voluptatem?</p>
+               <p class = 'bio'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, atque quam provident eligendi alias odio molestias minus incidunt corporis, qui autem ducimus aliquid nemo pariatur cupiditate sed, ipsam maxime voluptatem?</p>
                <img src="../public/1.jpg" alt="" id ='k'>
-               <p id = 'k-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab possimus necessitatibus saepe perferendis, nemo debitis culpa qui aspernatur est. Consequuntur similique quam cupiditate numquam. Hic vel illum autem cupiditate quidem.</p>
+               <p class = 'bio'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab possimus necessitatibus saepe perferendis, nemo debitis culpa qui aspernatur est. Consequuntur similique quam cupiditate numquam. Hic vel illum autem cupiditate quidem.</p>
                <div id = 'location'>
                     <p>G/A 
                          <span>225 Bush St</span>
                          <span>San Francisco,CA</span>
                          <span>(415)000-0000</span>
                          <span><a href="">xxx@xxx.com</a></span>
-                    </p>
+                    </p> 
+               </div>
+               <div id = 'map'>
+                         
                </div>
           </div>
      <!-- </div> -->
